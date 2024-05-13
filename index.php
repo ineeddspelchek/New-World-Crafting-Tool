@@ -310,7 +310,7 @@ $userInventory = query("SELECT * from owns_item WHERE playerEmail=?", $_SESSION[
                     el: document.getElementById('myholder'),
                     model: graph,
                     width: GRAPH_WIDTH,
-                    height: 1000,
+                    height: 1500,
                     gridSize: 1,
                     cellViewNamespace: namespace,
                     interactive: false
